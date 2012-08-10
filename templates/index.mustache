@@ -1,0 +1,22 @@
+<h1>{{title}}</h1>
+
+<p>{{agent}}</p>
+
+<table>
+  {{#tasks}}
+  <tr>
+    <td>
+      <a href="{{url}}">
+        <img height=16 width=16 src="{{favicon}}">
+        {{name}}
+      </a>
+    </td>
+    <td>
+      <img height=24 width=24 src="check.png" class="complete-{{complete?}}">
+    </td>
+  </tr>
+  {{/tasks}}
+</table>
+
+<img src="finished.gif" class="complete-{{complete?}}">
+

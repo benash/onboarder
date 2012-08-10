@@ -1,0 +1,13 @@
+body {
+  background: ##800000;
+  font-family: "Trebuchet MS", Verdana, Arial, serif;
+}
+
+a:link, a:visited {
+  color: #1155CC;
+  text-decoration: none;
+}
+
+.complete-false {
+  display: none
+}
